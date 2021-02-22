@@ -1,0 +1,14 @@
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li role="presentation" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/">Bagels</a>
+        </li>
+        <li role="presentation" routerLinkActive="active">
+            <a routerLink="/geometries">Geometries</a>
+        </li>
+    </ul>
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+</div>
